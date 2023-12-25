@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+# [1.1.0](https://github.com/nilahomar/terraform-modules/compare/v1.0.1...v1.1.0) (2023-12-25)
+
+
+### Features
+
+* terraform docs ([df576a4](https://github.com/nilahomar/terraform-modules/commit/df576a40458a5a359c50800a8bebe9279d0ea3b4))
+
 ## [1.0.1](https://github.com/nilahomar/terraform-modules/compare/v1.0.0...v1.0.1) (2023-12-25)
 
 
