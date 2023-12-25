@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.1](https://github.com/nilahomar/terraform-modules/compare/v1.0.0...v1.0.1) (2023-12-25)
+
+
+### Bug Fixes
+
+* action permission ([c9708c0](https://github.com/nilahomar/terraform-modules/commit/c9708c0289b858dc7ea486b06639ae0d18368b7b))
+* sem release token ([9e97a3d](https://github.com/nilahomar/terraform-modules/commit/9e97a3d75956c0cd16b83596d3344fdefb1d6ff0))
+
 # 1.0.0 (2023-12-25)
 
 
