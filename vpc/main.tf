@@ -81,12 +81,19 @@ resource "aws_route_table_association" "private" {
 resource "aws_eip" "this" {
   count  = var.create_nat_gateway ? 1 : 0
   domain = "vpc"
+  tags = {
+    Name = "main"
+  }
 }
 
 resource "aws_nat_gateway" "this" {
   count         = var.create_nat_gateway ? 1 : 0
   allocation_id = aws_eip.this[0].id
   subnet_id     = aws_subnet.public[0].id
+
+  tags = {
+    Name = "main"
+  }
 }
 
 resource "aws_route" "private_nat" {
